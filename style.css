@@ -1,0 +1,70 @@
+/* Reset */
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+
+@font-face {
+    font-family:"NBAkademieMonoStd-Regular";
+    src:url("fonts/nb_akademie_mono_std_regular.woff2") format("woff2"),url("fonts/nb_akademie_mono_std_regular.woff") format("woff");
+    font-style:normal;font-weight:400;
+  }
+  
+  @font-face {
+    font-family:"NBAkademieMonoStd-Medium";
+    src:url("fonts/nb_akademie_mono_std_medium.woff2") format("woff2"),url("fonts/nb_akademie_mono_std_medium.woff") format("woff");
+    font-style:normal;font-weight:400;
+  }
+  
+  @font-face {
+    font-family:"NBAkademieMonoStd-Bold";
+    src:url("fonts/nb_akademie_mono_std_bold.woff2") format("woff2"),url("fonts/nb_akademie_mono_std_bold.woff") format("woff");
+    font-style:normal;font-weight:400;
+  }
+  
+  .fonts {
+    font-size: 3em;
+  }
+  
+  .regular {
+    font-family: "NBAkademieMonoStd-Regular";
+  }
+  
+  .medium {
+    font-family: "NBAkademieMonoStd-Medium";
+  }
+  
+  .bold {
+    font-family: "NBAkademieMonoStd-Bold";
+  }
+
+ /*  Base */
+ body {
+  font-family: "NBAkademieMonoStd-Regular";
+  font-size: 23px;
+ }
+
+ h1,h2,h3 {
+  font-family: "NBAkademieMonoStd-Medium";
+ }
+
+ ul li {
+   list-style: none;
+ }
+
+  /*  Header */
+.header {
+  font-family: "NBAkademieMonoStd-Medium";
+  max-width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 91px;
+}
+
+.header a {
+ padding: 10px;
+}
+
+  /*  Main */
+
+
+  /*  Footer */
